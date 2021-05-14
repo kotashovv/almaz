@@ -378,28 +378,28 @@ main {
 
 @font-face {
   font-family: "Roboto-Regular";
-  src: local("Roboto"), local("Roboto-Regular"), url(/assets/fonts/Roboto-Regular.woff) format("woff"), url(/assets/fonts/Roboto-Regular.ttf) format("truetype");
+  src: local("Roboto"), local("Roboto-Regular"), url(assets/fonts/Roboto-Regular.woff) format("woff"), url(assets/fonts/Roboto-Regular.ttf) format("truetype");
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
   font-family: "Roboto-Bold";
-  src: local("Roboto-Bold"), url(/assets/fonts/Roboto-Bold.woff) format("woff"), url(/assets/fonts/Roboto-Bold.ttf) format("truetype");
+  src: local("Roboto-Bold"), url(assets/fonts/Roboto-Bold.woff) format("woff"), url(assets/fonts/Roboto-Bold.ttf) format("truetype");
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
   font-family: "Roboto-Medium";
-  src: local("Roboto-Medium"), url(/assets/fonts/Roboto-Medium.woff) format("woff"), url(/assets/fonts/Roboto-Medium.ttf) format("truetype");
+  src: local("Roboto-Medium"), url(assets/fonts/Roboto-Medium.woff) format("woff"), url(assets/fonts/Roboto-Medium.ttf) format("truetype");
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
   font-family: "Open-Sans";
-  src: local("Open-Sans"), url(/assets/fonts/OpenSans-Bold.woff) format("woff"), url(/assets/fonts/OpenSans-Bold.ttf) format("truetype");
+  src: local("Open-Sans"), url(assets/fonts/OpenSans-Bold.woff) format("woff"), url(assets/fonts/OpenSans-Bold.ttf) format("truetype");
   font-style: normal;
   font-display: swap;
 }
@@ -780,7 +780,6 @@ main {
 
 .right-column__first-circle {
   position: absolute;
-  background-image: url(../assets/img/img-for-circle1.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -798,7 +797,6 @@ main {
 
 .right-column__second-circle {
   position: absolute;
-  background-image: url(../assets/img/img-for-circle2.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -916,7 +914,6 @@ main {
 
 .welcome-circle__item {
   padding: 15px 0 15px 50px;
-  background-image: url(../assets/img/icons/checked.png);
   background-position-x: left;
   background-repeat: no-repeat;
   background-size: 40px;
@@ -928,7 +925,7 @@ main {
 
 .about {
   padding: 30px 0 50px;
-  background-image: url(../assets/img/almaz-back.png);
+  background-image: url(assets/img/almaz-back.png);
   background-size: cover;
   background-repeat: repeat;
 }
@@ -988,7 +985,7 @@ main {
 
 .edge {
   padding: 50px 0 30px;
-  background-image: url(../assets/img/almaz-back.png);
+  background-image: url(assets/img/almaz-back.png);
   background-repeat: repeat;
 }
 
@@ -1062,7 +1059,7 @@ main {
 
 .catalog {
   padding: 50px 0;
-  background-image: url(../assets/img/almaz-back.png);
+  background-image: url(assets/img/almaz-back.png);
 }
 
 .catalog__title {
@@ -1176,7 +1173,7 @@ main {
 
 .works {
   padding: 50px 0;
-  background-image: url(../assets/img/almaz-back.png);
+  background-image: url(assets/img/almaz-back.png);
 }
 
 .works__title {
@@ -1241,7 +1238,7 @@ main {
 
 .feedback {
   padding: 50px 0;
-  background-image: url(../assets/img/almaz-back.png);
+  background-image: url(assets/img/almaz-back.png);
 }
 
 .feedback__title h2 {

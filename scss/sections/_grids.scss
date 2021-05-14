@@ -1,0 +1,24 @@
+//Ограничивающий контейнер (max-width container)
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.wrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    background-color: #e5e5e5;
+}
+
+main {
+    flex: 1 1 auto;
+    min-width: 0;
+}
+
+.wrapper._lock {
+    overflow: hidden;
+}

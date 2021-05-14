@@ -1,0 +1,105 @@
+.footer {
+    padding: 90px 0 70px;
+    background-color: #27272757;
+    &__body {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+
+    &__logo {
+    }
+
+    &__info {
+    }
+
+    &__row {
+        ul {
+            list-style: none;
+            display: flex;
+            padding: 0;
+            li {
+                margin: 0 15px;
+                a {
+                    color: #fff;
+                    text-decoration: none;
+                    font-size: 19px;
+                    font-family: 'Roboto-Regular',sans-serif;
+                }
+            }
+        }
+        &:last-child {
+            display: flex;
+            justify-content: center;
+            span {
+                display: block;
+                font-size: 20px;
+                color: #fff;
+            }
+            a {
+                margin-left: 30px;
+                text-decoration: none;
+                font-size: 20px;
+                color: #fff;
+            }
+        }
+    }
+
+    &__copyright {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 23px;
+        color: #fff;
+        p {
+            line-height: 1em;
+            margin: 0;
+            font-family: 'Roboto-Regular',sans-serif;
+
+        }
+    }
+}
+.footer__mail {
+    font-size: 25px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    line-height: 1.5;
+    font-family: 'Roboto-medium',sans-serif;
+}
+.footer__logo {
+    .main-logo {
+        width: 200px;
+        height: 50px;
+        background-color: #DADADA;
+        padding: auto;
+        a {
+            text-decoration: none;
+            color: #000;
+            display: block;
+            text-align: center;
+            padding: 10px;
+            margin: 0;
+            font-size: 23px;
+            line-height: 1em;
+            font-weight: 500;
+        }
+    }
+}
+
+.popup-modal {
+    position: fixed;
+    opacity: 0;
+    visibility: hidden;
+    background-color: #000000aa;
+    z-index: 15;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    transform: opacity 150ms ease;
+    height: 100%;
+    &.is-active {
+        opacity: 1;
+        visibility: visible;
+    }
+}

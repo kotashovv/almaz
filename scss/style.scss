@@ -1,0 +1,38 @@
+// обнуление Стилей
+
+@import 'sections/normalize';
+
+@import 'sections/grids';
+// шрифты
+@import 'sections/fonts';
+
+//Переменные
+@import 'sections/vars';
+
+//Интерфейс
+@import 'sections/interface';
+
+//Шапка сайта
+@import 'sections/header';
+
+
+//Содержимое страницы
+@import 'sections/welcome';
+
+@import 'sections/about';
+
+@import 'sections/edge';
+
+@import 'sections/catalog';
+
+@import 'sections/works';
+
+@import 'sections/feedback';
+
+//Подвал сайта
+@import 'sections/footer';
+
+@import 'sections/adaptive';
+
+
+

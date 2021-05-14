@@ -1,0 +1,95 @@
+.catalog {
+    padding: 50px 0;
+    background-image: url(../assets/img/almaz-back.png);
+    &__product {
+    }
+    &__title {
+        margin-bottom: 20px;
+        font-family: 'Roboto-Bold',sans-serif;
+        h2{
+            margin: 0;
+            font-size: 35px;
+        }
+    }
+}
+.container {
+}
+.catalog-wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.product-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 33.33%;
+    margin-bottom: 30px;
+    &__img {
+        margin-bottom: 20px;
+    }
+
+    &__name {
+        margin: 0;
+        font-size: 23px;
+        color: #000;
+        font-weight: 600;
+    }
+
+    &__price {
+        margin: 0;
+        color: #00c0be;
+        font-size: 22px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+}
+.img {
+    width: 320px;
+    height: 400px;
+    background-color: #c4c4c4;
+}
+
+@media (max-width:1023px) {
+    .catalog {
+        padding: 20px 0;
+    }
+    .catalog-wrap {
+        justify-content: center;
+    }
+    .product-card {
+        margin: 20px;
+        &__name {
+            text-align: center;
+        }
+    }
+    .img {
+        width: 280px;
+        height: 350px;
+    }
+}
+
+@media (max-width:425px) {
+    .img {
+        width: 230px;
+        height: 270px;
+    }
+    .product-card {
+
+        font-family: 'Roboto-Bold',sans-serif;
+        &__img {
+            margin-bottom: 15px;
+        }
+        &__name {
+            font-size: 20px;
+        }
+        &__price {
+            font-size: 20px;
+        }
+        .feedback-btn {
+            padding: 15px 35px;
+            font-size: 20px;
+        }
+    }
+}
